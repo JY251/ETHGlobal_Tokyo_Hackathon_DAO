@@ -1,6 +1,7 @@
 {
   "name": "next-typescript-starter",
   "version": "0.1.0",
+  "type": "module",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -16,7 +17,9 @@
     "ethers": "^5",
     "next": "^13",
     "react": "^18.2",
-    "react-dom": "^18.2"
+    "react-dom": "^18.2",
+    "ts-node": "^10.9.1",
+    "web3": "^1.9.0"
   },
   "devDependencies": {
     "@types/node": "^18.11.11",
